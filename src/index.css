@@ -1,37 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Numans&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Numans', sans-serif;
-    transition: all 0.3s ease-in-out;
+    font-family: 'Inter', 'Numans', sans-serif;
+    transition: color 0.3s ease, background-color 0.3s ease, opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     user-select: none;
 }
 
-#root{
+#root {
     overflow: hidden;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-.d-orange{
+.d-orange {
     color: darkorange;
 }
 
-button, input{
+button,
+input {
     border: none;
     outline: none;
     background-color: transparent;
 }
 
-button{
+button {
     font-weight: bold;
 }
 
-a:hover, button:hover{
+a:hover,
+button:hover {
     cursor: pointer;
 }
