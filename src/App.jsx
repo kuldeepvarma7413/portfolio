@@ -222,13 +222,13 @@ function App() {
                   <div className="tl-meta">
                     <h3 className="tl-role">Software Development Engineer</h3>
                     <p className="tl-company">Jupiter Money (Amica Financial)</p>
-                    <p className="tl-date">Mar 2026 – Current &nbsp;·&nbsp; Bengaluru</p>
+                    <p className="tl-date">Apr 2026 – Current &nbsp;·&nbsp; Bengaluru</p>
                   </div>
                 </div>
                 <ul className="tl-bullets">
-                  <li>Designed and implemented real-time reconciliation system for partner transactions, reducing settlement mismatches by ~90% and eliminating manual intervention for ~10–12 cases/week.</li>
-                  <li>Led migration of legacy workflows to event-driven architecture (AWS SQS + Kafka), improving system reliability and reducing retry failures by ~60%.</li>
-                  <li>Owned end-to-end delivery of core Loans servicing platform, supporting ~2K+ daily transactions with improved API latency by ~35% through caching and async processing optimizations.</li>
+                  <li>Designed and implemented real-time reconciliation system for partner transactions, reducing <strong>settlement mismatches by ~90%</strong> and eliminating manual intervention for ~10–12 cases/week.</li>
+                  <li>Led migration of legacy workflows to event-driven architecture (AWS SQS + Kafka), improving system reliability and <strong>reducing retry failures by ~60%</strong>.</li>
+                  <li>Owned end-to-end delivery of core Loans servicing platform, <strong>supporting ~2K+ daily transactions</strong> with <strong>improved API latency by ~35%</strong> through caching and async processing optimizations.</li>
                   <li>Integrated Partner Onboarding flow, streamlining the onboarding process for new financial partners.</li>
                 </ul>
               </div>
