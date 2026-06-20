@@ -210,6 +210,30 @@ function App() {
           <h2>My <span className="d-orange">Work Experience</span></h2>
           <div className="timeline">
 
+            {/* Jupiter SDE 1 */}
+            <div className="timeline-entry" data-aos="fade-up">
+              <div className="timeline-spine">
+                <div className="tl-dot"></div>
+                <div className="tl-line"></div>
+              </div>
+              <div className="timeline-card">
+                <div className="tl-card-header">
+                  <img src="https://jupiter.money/assets/images/header-white.svg?v=7e86edc062" alt="Jupiter Money" className="tl-logo" />
+                  <div className="tl-meta">
+                    <h3 className="tl-role">Software Development Engineer</h3>
+                    <p className="tl-company">Jupiter Money (Amica Financial)</p>
+                    <p className="tl-date">Mar 2026 – Current &nbsp;·&nbsp; Bengaluru</p>
+                  </div>
+                </div>
+                <ul className="tl-bullets">
+                  <li>Designed and implemented real-time reconciliation system for partner transactions, reducing settlement mismatches by ~90% and eliminating manual intervention for ~10–12 cases/week.</li>
+                  <li>Led migration of legacy workflows to event-driven architecture (AWS SQS + Kafka), improving system reliability and reducing retry failures by ~60%.</li>
+                  <li>Owned end-to-end delivery of core Loans servicing platform, supporting ~2K+ daily transactions with improved API latency by ~35% through caching and async processing optimizations.</li>
+                  <li>Integrated Partner Onboarding flow, streamlining the onboarding process for new financial partners.</li>
+                </ul>
+              </div>
+            </div>
+
             {/* Jupiter Full-time */}
             <div className="timeline-entry" data-aos="fade-up">
               <div className="timeline-spine">
@@ -222,7 +246,7 @@ function App() {
                   <div className="tl-meta">
                     <h3 className="tl-role">Associate Software Development Engineer</h3>
                     <p className="tl-company">Jupiter Money (Amica Financial)</p>
-                    <p className="tl-date">Oct 2024 – Present &nbsp;·&nbsp; Bengaluru</p>
+                    <p className="tl-date">Oct 2025 – Mar 2026 &nbsp;·&nbsp; Bengaluru</p>
                   </div>
                 </div>
                 <ul className="tl-bullets">
@@ -246,7 +270,7 @@ function App() {
                   <div className="tl-meta">
                     <h3 className="tl-role">Software Development Engineer Intern</h3>
                     <p className="tl-company">Jupiter Money (Amica Financial)</p>
-                    <p className="tl-date">Dec 2023 – Sep 2024 &nbsp;·&nbsp; Jaipur</p>
+                    <p className="tl-date">Dec 2024 – Sep 2025 &nbsp;·&nbsp; Jaipur</p>
                   </div>
                 </div>
                 <ul className="tl-bullets">
@@ -495,7 +519,7 @@ function App() {
 
             <div className="timeline-entry" data-aos="fade-up">
               <div className="timeline-spine">
-                <div className="tl-dot tl-dot-blue"></div>
+                <div className="tl-dot tl-dot"></div>
                 <div className="tl-line"></div>
               </div>
               <div className="timeline-card">
