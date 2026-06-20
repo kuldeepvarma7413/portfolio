@@ -76,7 +76,7 @@ function App() {
           Project
         </Link>
         <Link activeClass="active" smooth spy to="service">
-          Service
+          Expertise
         </Link>
         <div className="logo">
           <img
