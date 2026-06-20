@@ -166,7 +166,7 @@ function App() {
       <div className="service-section" id="service" data-aos="fade-up">
         <div className="service-section-header" data-aos="fade-up">
           <p className="section-eyebrow">What I offer</p>
-          <h2>My <span className="d-orange">Services</span></h2>
+          <h2>My <span className="d-orange">Expertise</span></h2>
           <p className="section-sub">Offering full-stack web, mobile &amp; backend services with a focus on performance, scalability, and clean architecture.</p>
         </div>
         <div className="service-cards-row">
@@ -615,7 +615,7 @@ function App() {
               <h4>Navigation</h4>
               <Link smooth spy to="home">Home</Link>
               <Link smooth spy to="about">About</Link>
-              <Link smooth spy to="service">Services</Link>
+              <Link smooth spy to="service">Expertise</Link>
               <Link smooth spy to="resume">Experience</Link>
               <Link smooth spy to="project">Projects</Link>
               <Link smooth spy to="education">Education</Link>
