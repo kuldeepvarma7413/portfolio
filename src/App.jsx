@@ -88,7 +88,7 @@ function App() {
           />
           <p className="logo-text">PORTFOLIO</p>
         </div>
-        <a activeClass="active" target="_blank" href="https://drive.google.com/file/d/1ku_emR0tdGLg_w9S_jfRJ9XesTkMJpFp/view?usp=sharing" download >
+        <a activeClass="active" target="_blank" href="https://drive.google.com/file/d/1979B_JJJxDpgTAHhHGTp_GGr2b2XMlgv/view?usp=sharing" download >
           Resume
         </a>
         <Link activeClass="active" smooth spy to="education">
